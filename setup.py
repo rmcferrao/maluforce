@@ -28,8 +28,8 @@ setup(
     # long_description=textwrap.dedent(open('README.rst', 'r').read()),
 
     install_requires=[
-        'pandas==0.25.3',
-        'numpy==1.16.2',
+        'pandas==1.3.2',
+        'numpy==1.21.3',
         'simple-salesforce==0.74.2'
     ] + pyver_install_requires,
     keywords=about['__keywords__'],
